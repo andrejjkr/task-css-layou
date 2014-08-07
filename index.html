@@ -3,110 +3,149 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 	<title>CatWill</title>
 </head>
 <body>
 	<div class="container">
-		<header>
+		<div class="header">
 			<div class="links_and_logo">
 				<div class="logo" >
-					<a href=""><img src="" alt="logo"></a>
+					<a href="#">
+						<img src="assets/images/header/logo.png" alt="logo">
+						<p>Cat<span>Will</span></p>
+					</a>
 				</div>
 				<div class="social_links">
-					<a href="" class="twitter"></a>
-					<a href="" class="facebook"></a>
-					<a href="" class="mail"></a>	
-					<a href="" class="vk"></a>	
+					<a href="#">
+						<p class="socal_icon" id="twitter-i"></p>
+					</a>
+					<a href="#" >
+						<p class="socal_icon" id="facebook-i"></p>
+					</a>
+					<a href="#" >
+						<p class="socal_icon" id="mail-i"></p>
+					</a>	
+					<a href="#">
+						<p class="socal_icon" id="vk-i"></p>
+					</a>
 				</div>
 				<div class="headline">
-					<img src="" alt="CТРАШНЫЕ ИСТОРИИ"/>
-					<p>CТРАШНЫЕ ИСТОРИИ</p>
+					<img src="assets/images/header/iTunesArtwork@2x_2.png" alt="CТРАШНЫЕ ИСТОРИИ"/>
+					<h1>CТРАШНЫЕ<br>ИСТОРИИ</h1>
 					<hr>
 					<p>Доступно для IPhone и IPad</p>
 					<hr>
-					<p>Хотите испытать свои нервы на прочность</p>
-					<p>Думаете безстрашны? Сборник трашных историй заставит вас спать с включенным светом.</p>
+					<p>Хотите испытать свои нервы на прочность?</p>
+					<p>Думаете безстрашны? Сборник трашных историй<br>заставит вас спать с включенным светом.</p>
+
 				</div>
 			</div>
-		</header>
-		<div class="wrapper">
+		</div>
+		<div class="section">
 			<div class="download">
-				<p>Загрузите полную версию</p>
-				<div class="button_full_version">
-				</div>
+				<p>ЗАГРУЗИТЕ<br>ПОЛНУЮ ВЕРСИЮ</p>
+				<button class="button_full_version">
+					<p class="iphone_icon"></p>
+					<p>Загрузить с</p>
+					<p>App Store</p>
+				</button> 
 				<hr>
 				<p>или</p>
 				<hr>
-				<div class="button_light_version">
-				</div>
-				<p>Попробуйте лайт версию</p>
+				<button class="button_light_version">
+					<p class="iphone_icon"></p>
+					<p>Загрузить с</p>
+					<p>App Store</p>
+				</button> 
+				<p id="light-ver">ПОПРОБУЙТЕ ЛАЙТ ВЕРСИЮ</p>
 			</div>
 			<div class="devices">
 				<div class="arrow">
-				</div>
-				<div class="iphpone">
-					<img src="" alt="IPhone">
+					<p>Посмотрите <span id="arrow"></span><br>все скриншоты</p>
 				</div>
 				<div class="ipad">
-					<img src="" alt="IPad">
+					<img src="assets/images/section/ipad.png" alt="IPad">
+				</div>
+				<div class="iphpone">
+					<img src="assets/images/section/iphone.png" alt="IPhone">
 				</div>
 			</div>
 			<div class="points">
 				<div class="update">
-					<img src="" alt="update">
-					<p>регулярные обновления</p>
-					<p>С нами никогда не соскучишся</p>
+					<p id="update"></p>
+					<p>Регулярные<br>обновления</p>
+					<p>С нами никогда<br>не соскучишся</p>
 				</div>
 				<div class="vote">
-					<img src="" alt="vote">
-					<p>Голосование за историю</p>
-					<p>Ваш голос определяет рейтинг истории</p>
+					<p id="vote"></p>
+					<p>Голосование<br>за историю</p>
+					<p>Ваш голос определяет<br>рейтинг истории</p>
 				</div>
-				<div class="choicest">
-					<img src="" alt="choicest">
-					<p>Особые истории</p>
-					<p>Для юбителей качественного хоррора</p>
+				<div class="best">
+					<p id="best"></p>
+					<p>Отборные<br>истории</p>
+					<p>Для юбителей<br>качественного хоррора</p>
 				</div>
 				<div class="more">
-					<img src="" alt="more">
-					<p>Более 2000+ историй</p>
+					<p id="more"></p>
+					<p>Более 2000+<br>историй</p>
 					<p>Хватит всем!</p>
 				</div>
 				<div class="reader">
-					<img src="" alt="reader">
-					<p>Удобная читалка</p>
-					<p>Настройки для вашего комфорта</p>
+					<p id="reader"></p>
+					<p>Удобная<br>читалка</p>
+					<p>Настройки для<br>вашего комфорта</p>
 				</div>
+			</div>
+			<div class="main_devider">
+				<img src="assets/images/section/main_devider.png" alt=""/>
 			</div>
 			<div class="articles">
 				<h2>Страшные истории</h2>
 				<p>Приложение является лучшей коллекцией страшных историй. Все истории тщательно отбираются и редактируются, каждая из них способна вызвать холодный пот у любого смельчака.</p>
 				<p>Читайте и пугайтесь на здоровье. Помните: в том, чтобы бояться нет ничего плохого, ведь лучший способ борьбы со страхами -- это не збегать их, а встретиться с ними лицом к лицу.</p>
-				<p>Чтобы оценить все достоинства приложения, посмотрите <a href="#"> обзор</a></p>
+				<p>Чтобы оценить все достоинства приложения, посмотрите <a href="#"><i>обзор</i></a></p>
 			</div>
 		</div>
 		<footer>
 			<div class="questions_and_contacts">
 				<p>Возникли вопросы? <br>Свяжитесь с нами</p>
 				<div class="email">
-					<p>catwillhelp@gmail.com</p>
+					<a href="mailto:catwillhelp@gmail.com">catwillhelp@gmail.com</a>
 				</div>
 			</div>
 			<div class="social_count_links">
 				<div class="twitter">
-					
+					<p class="counter">28</p>
+					<a href="#">
+						<p class="social_count" id="twitter-c"></p>
+					</a>
 				</div>
 				<div class="facebook">
-					
+					<p class="counter">28</p>
+					<a href="#">
+						<p class="social_count" id="facebook-c"></p>
+					</a>
 				</div>
 				<div class="mail">
-					
+					<p class="counter">28</p>
+					<a href="#">
+						<p class="social_count" id="mail-c"></p>
+					</a>
 				</div>
 				<div class="google">
-					
+					<p class="counter">28</p>
+					<a href="#">
+						<p class="social_count">+1</p>
+					</a>
 				</div>
 				<div class="vk">
-					
+					<p class="counter">28</p>
+					<a href="#">
+						<p class="social_count" id="vk-c"></p>
+					</a>
 				</div>
 			</div>
 		</footer>

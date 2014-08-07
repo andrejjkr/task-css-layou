@@ -46,7 +46,7 @@ body{
 }
 /*Лого*/
 .logo {
-	width: 26.3%;
+	width: 263px;
 	height: 109px;
 	float: left;
 	box-sizing:border-box;
@@ -514,15 +514,28 @@ footer{
 	text-shadow: 0px 1px 2px #3a3a3a;
 }
 @media (max-width: 768px){
+	body{
+	background: url(../assets/images/background_3.jpg) 0px 0px repeat-x,
+				url(../assets/images/background_5.jpg) 0px 12px repeat-x,
+				url(../assets/images/background_6.jpg) 0px 404px repeat-x,
+				url(../assets/images/background_4.jpg) 0px 1603px repeat;
+	}
+	.container{
+	width: 768px;
+	}
+	.header{
+		height: 396px;
+	}
 	.social_links{
 		padding-top: 19px;
-		padding-left: 220px; 
+		padding-left: 40px; 
 	}
 	.headline{
+		margin-top: 25px;
 		position: relative;
 	}
 	.headline hr{
-		width: 360px;
+		width: 255px;
 		top: 5px;
 		border: 1px solid #525051;
 		color: #525051;
@@ -540,8 +553,8 @@ footer{
 		font-size: 19px;
 		float: left;
 		color: #525051;
-		top: 0;
-		left: 385px;
+		top: 0px;
+		left: 267px;
 		position: absolute;
 	}
 	.headline img{
@@ -550,7 +563,7 @@ footer{
 		position: absolute;
 	}
 	.headline h1{
-		left: 40%;
+		left: 43%;
 		top:50px;
 		position: absolute;
 	}
@@ -566,6 +579,9 @@ footer{
 		top:140px;
 		position: absolute;
 	}
+	.section{
+		height: 1531px;
+	}
 	.download{
 		width: 768px;
 		height: 300px;
@@ -579,7 +595,7 @@ footer{
 		float: left;
 	}
 	.download p:first-of-type{
-			margin-left: -500px;
+			margin-left: -420px;
 	}
 	.download p:nth-of-type(2){
 		float: left;
@@ -592,8 +608,8 @@ footer{
 	.devices{
 		width: 690px;
 		height: 850px;
-		top: 600px;
-		left: 135px;
+		top: 530px;
+		left: 60px;
 		position: absolute;
 	}
 	.arrow{
@@ -602,15 +618,36 @@ footer{
 		position: absolute;
 	}
 	.points{
-		width: 1000px;
-		height: 155px;
-		margin-top: 280px;
+		width: 768px;
+		height: 400px;
+		box-sizing:border-box;
+		margin-top: 680px;
+		padding-left: 30px;
 		clear: both;
 	}
-
-
-
-
-	
+	.points div{
+		margin: 20px 25px;
+	}
+	.points div:nth-of-type(3){
+		margin-right:0; 
+	}
+	.points div:nth-of-type(4){
+		padding-left:115px; 
+		clear: left;
+	}
+		footer{
+		width: 768px;
+	}
+	.social_count_links{
+		margin-top: 10px;
+		margin-left: 40px;
+	}
+	.social_count_links div{
+		margin: 15px 24px;
+	}
+	.social_count_links div:nth-of-type(4){
+		margin-left: 76px;
+		clear: left;
+	}
 }
 

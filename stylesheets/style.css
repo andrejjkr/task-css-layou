@@ -142,7 +142,6 @@ body{
 }
 
 .headline p{
-
 }
 .headline p:nth-of-type(1){
 	font-size: 17px;
@@ -651,3 +650,163 @@ footer{
 	}
 }
 
+@media (max-width: 480px){
+	body{
+		background: url(../assets/images/background_3.jpg) 0px 0px repeat-x,
+					url(../assets/images/background_7.jpg) 0px 12px repeat-x,
+					url(../assets/images/background_1.jpg) 0px 379px repeat-x,
+					url(../assets/images/background_4.jpg) 0px 1603px repeat;
+	}
+
+	.container{
+		width: 480px;
+	}
+	.header{
+		height: 371px;
+	}
+	.logo{
+		width: 62px;
+		height: 62px;
+		padding: 10px;
+	}
+	.logo p{
+		display: none;
+	}
+	.logo img{
+		width: 42px;
+		height: 42px;
+	}
+	.social_links{
+		width: 400px;
+		height: 45px;
+		padding-top: 10px;
+		padding-left: 15px; 
+	}
+	.social_links a{
+		display: block;
+		width: 45px;
+		height: 45px;
+		margin: 0 24px;
+		float: left;
+		border-radius:29px;
+		background: #33333b;
+	}
+	.social_links p{
+		margin: 0 auto;
+		font-size: 32px;
+		color: #949498;
+		text-indent: 11px;
+	}
+	.headline img{
+		width: 70px;
+		height: 70px;
+		left: 202px;
+		top:0px;
+		position: absolute;
+	}
+	.headline hr{
+		width: 120px;
+		top: 85px;
+		border: 1px solid #525051;
+		color: #525051;
+		background-color: #525051;
+	}
+	.headline hr:first-of-type{
+		left: 0;
+		position: absolute;
+	}
+	.headline hr:last-of-type{
+		right: 0px;
+		position: absolute;
+	}
+	.headline p:nth-of-type(1){
+		font-size: 18px;
+		float: left;
+		color: #525051;
+		top: 80px;
+		left: 130px;
+		position: absolute;
+	}
+	.headline h1{
+		top: 140px;
+		left: 85px;
+		font-size: 30.77px;
+		line-height: 1.1;
+		margin: 0 12px;
+		color: #d0a22b;
+		clear:right;
+	}
+	.headline h1 br{
+		display: none;
+	}
+	.headline p:nth-of-type(3){
+		width: 370px;
+		text-align: left;
+		text-indent:15px;
+		left: 55px;
+		top:165px;
+	}
+	.headline p:nth-of-type(3) br{
+		display: none;
+	}
+	.section{
+		height: 1378px;
+	}
+
+
+	.download{
+		width: 240px;
+		height: 300px;
+		margin-left: 0px;
+	}
+	.download hr{
+		display: block;
+		margin: 37px 2px 0px 2px;
+		width: 93px;
+		float: left;
+		border: 1px solid #85837d;
+		color: #85837d;
+		background-color: #85837d;
+	}
+	.download hr:first-of-type{
+		clear:left;
+	}
+	.download p{
+		font-weight: 700;
+		font-size: 16px;
+		color: #85837d;
+		text-align: center;
+	}
+	.download p:nth-of-type(2){
+		margin: 15px 0px;
+		font-family: m-brody;
+		font-weight: normal;
+		font-size: 32px;
+		float: left;
+	}
+	
+	.download button{
+		margin: 0px 120px;
+	}
+	.button_light_version, .button_full_version {
+		clear: both;
+	}
+	.download button p:nth-of-type(n+2) {
+		font-weight: 700;
+	}
+	
+	.button_full_version p{
+		color: #b58c14;
+	}
+	
+	.arrow{
+		display: none;
+	}
+
+	.ipad{
+		display: none;
+	}
+
+
+
+}

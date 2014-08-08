@@ -658,17 +658,13 @@ footer{
 
 @media (max-width: 480px){
 	body{
-
 		background: url(../assets/images/background_3.jpg) 0px 0px repeat-x,
 					url(../assets/images/background_7.jpg) 0px 8px repeat-x,
 					url(../assets/images/background_8.jpg) 0px 375px repeat-x,
 					url(../assets/images/background_9.jpg) 0px 715px repeat-x,
 					url(../assets/images/background_10.jpg) 0px 1157px repeat-x,
 					url(../assets/images/background_4.jpg) 0px 1753px repeat;
-
-					
 	}
-
 	.container{
 		width: 480px;
 	}
@@ -700,7 +696,6 @@ footer{
 		margin: 0 24px;
 		float: left;
 		border-radius:29px;
-		background: #33333b;
 	}
 	.social_links p{
 		margin: 0 auto;
@@ -879,5 +874,105 @@ footer{
 		margin-left: 30px;
 		clear: none;
 	}
+}
+@media (max-width: 320px){
+	body{
+		background: url(../assets/images/background_3.jpg) 0px 0px repeat-x,
+					url(../assets/images/background_7.jpg) 0px 8px repeat-x,
+					url(../assets/images/background_8.jpg) 0px 375px repeat-x,
+					url(../assets/images/background_9.jpg) 0px 715px repeat-x,
+					url(../assets/images/background_11.jpg) 0px 1157px repeat-x,
+					url(../assets/images/background_4.jpg) 0px 2209px repeat;
+		 }
+
+	.container{
+		width: 320px;
+	}
+	.social_links{
+		width: 250px;
+		padding-top: 10px;
+		padding-left: 7px; 
+	}
+	.social_links a{
+		margin: 0 7px;
+	}
+	.headline img{
+		left: 40px;
+		top: 0px;
+	}
+	.headline p:nth-of-type(1){
+		left: 50px;
+	}
+	.headline h1{
+		top: 0px;
+		left: 110px;
+	}
+	.headline hr{
+		width: 35px;
+	}
+	.headline p:nth-of-type(3){
+		width: 225px;
+		text-align: center;
+		top: 120px;
+	}
+	.section{
+		height: 1834px;
+	}
+	.download{
+		width: 320px;
+	}
+	.download button{
+		margin-left: 35px;
+	}
+	.download hr:first-of-type{
+		margin-left: 38px;
+	}
+	#light-ver{
+		right: 48px;
+	}
+	.devices{
+		width: 320px;
+	}
+	.devices_link{	
+		left: 100px;
+	}
+	.iphone_480{
+		width: 263px;
+		left: 47px;
+	}
+	.iphone_480 a:first-of-type{
+		left: -40px;
+	}
+	.points{
+		width: 320px;
+	}
+	.points div{
+		margin: 15px 65px;
+	}
+	footer{
+		width: 320px;
+		height: 412px;
+		
+	}
+	.questions_and_contacts{
+		top: 200px;
+		left: 17px;
+	}
+	.social_count_links{
+		width: 320px;
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+	.social_count_links div{
+		margin: 15px 24px;
+	}
 	
+	.social_count_links div:nth-of-type(n){
+		margin-top: 35px;
+		margin-left: 35px;
+	}
+	.social_count_links div:nth-of-type(4){
+		margin-left: 85px;
+		clear: left;
+	}
 }
